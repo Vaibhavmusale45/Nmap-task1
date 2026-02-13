@@ -11,14 +11,14 @@ The objective of this task is to perform a basic network scan using Nmap to iden
 - Environment: Authorized lab / virtual machine
 
 ## Scan Commands Used
-
+'''
 nmap -sV --top-ports 20 -Pn 10.129.49.248
 nmap -O -v 10.129.49.248
 
 
 
 
-Findings
+## Findings
 Open Ports
 
 22/tcp (SSH): Secure Shell service running OpenSSH on Ubuntu.
