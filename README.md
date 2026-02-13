@@ -11,9 +11,13 @@ The objective of this task is to perform a basic network scan using Nmap to iden
 - Environment: Authorized lab / virtual machine
 
 ## Scan Commands Used
-```bash
+
 nmap -sV --top-ports 20 -Pn 10.129.49.248
 nmap -O -v 10.129.49.248
+
+
+
+
 Findings
 Open Ports
 
